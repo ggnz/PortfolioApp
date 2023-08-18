@@ -1,9 +1,8 @@
-{
-  "proxy": "http://localhost:5000",
-  "homepage": "https://ggnz.github.io/ggnz.github.io",
+{  
+  "homepage": "https://ggnz.github.io/PortfolioRepo",
   "name": "myapp",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
