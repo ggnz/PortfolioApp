@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dcfb1552.css",
+    "main.js": "/static/js/main.be96f33e.js",
+    "static/media/card-project2.jpg": "/static/media/card-project2.f547a8767fe889399cbf.jpg",
+    "static/media/card-project1.jpg": "/static/media/card-project1.f1299d25de4a99fd7f6d.jpg",
+    "static/media/icon-linux.png": "/static/media/icon-linux.6d208c95cc37fd3cdc44.png",
+    "static/media/icon-azure.png": "/static/media/icon-azure.5a694f18b0e4f276ce48.png",
+    "static/media/card-shoko.jpg": "/static/media/card-shoko.8006f6e39abd3cba7347.jpg",
+    "static/media/card-emma.jpg": "/static/media/card-emma.90ca4ed5bb91a5861fb8.jpg",
+    "static/media/icon-net.png": "/static/media/icon-net.4889519c4b8cdad29341.png",
+    "static/media/card-me.png": "/static/media/card-me.80d0355ad6d4602fa182.png",
+    "static/media/icon-html.png": "/static/media/icon-html.860d906ddaa16acfecda.png",
+    "static/media/icon-c.png": "/static/media/icon-c.f089e215291596c8b583.png",
+    "static/media/icon-react.png": "/static/media/icon-react.b7b9b25fc7877789a220.png",
+    "static/media/icon-oracle.png": "/static/media/icon-oracle.e7bc0f6672d8f1869ac3.png",
+    "static/media/icon-server.png": "/static/media/icon-server.f646ee88b3621996e86d.png",
+    "static/media/icon-docker.png": "/static/media/icon-docker.9e011158a45676cfe881.png",
+    "static/media/icon-css.png": "/static/media/icon-css.58dfbebae4a02001b50e.png",
+    "static/media/icon-js.png": "/static/media/icon-js.3ade557547ee3603cbf9.png",
+    "static/media/card-oka.jpg": "/static/media/card-oka.d4fe368370bdda399fa8.jpg",
+    "static/media/Link-Mark.png": "/static/media/Link-Mark.275720b37ea098d2d93e.png",
+    "static/media/icon-mysql.png": "/static/media/icon-mysql.8ca52c25afffafaa83f1.png",
+    "index.html": "/index.html",
+    "main.dcfb1552.css.map": "/static/css/main.dcfb1552.css.map",
+    "main.be96f33e.js.map": "/static/js/main.be96f33e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcfb1552.css",
+    "static/js/main.be96f33e.js"
+  ]
+}
