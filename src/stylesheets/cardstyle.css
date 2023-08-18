@@ -1,0 +1,160 @@
+.container-projects{
+    display: flex;    
+    justify-content: center;     
+    width: 100%; 
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+
+.project-container{    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 25%; /* Ajusta el ancho de los contenedores */
+    box-sizing: border-box;    
+}
+
+.section-title h1{    
+    font-size: 40px;
+    color: #404040;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-top: 15px;
+    padding-top: 0%;
+}
+
+.section-title h3{    
+    font-size: 16px;
+    margin: 0%;
+    letter-spacing: 1px;
+    line-height: 14px;
+    color: #14b8a6;
+}
+
+
+
+.project-card {
+    background: #fff;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    padding: 15px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.project-card:hover {
+    box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.4);    
+}
+
+.project-img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project-name{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;;
+}
+
+.project-subname{
+    color: #14b8a6;
+    font-size: 16px;
+}
+
+.project-text{
+    color: #65656d;
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Heebo",sans-serif;
+}
+
+.project-button{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.project-button a {
+    text-decoration: none;
+    border: 2px solid #010100;
+    padding: 15px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+  }
+
+.project-button a::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -2px;
+    width: calc(100% + 6px);
+    /*100% plus double the times left values*/
+    height: calc(100% - 10px);
+    background-color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    transform: scaleY(1);
+}
+
+
+
+span {
+    position: relative;
+    /* z-index coz when we put bg to before and after this span text will not be visible */
+    z-index: 3;
+  }
+  
+.project-button a::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: -5px;
+    width: calc(100% - 10px);
+    /*100% plus double the times left values*/
+    height: calc(100% + 10px);
+    background-color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    transform: scaleX(1);
+}
+
+.project-button a:hover::before {
+  transform: scaleY(0);
+}
+@media (max-width: 1000px) {
+    .container-projects {
+        flex-direction: column; /* Cambia la dirección de los elementos */
+        align-content: center;         
+    }
+
+    .project-container{
+        width: 80%;
+    }
+
+    .project-container {
+        padding: 20px 0; /* Reduce el padding vertical para mayor espacio */       
+    }
+    .project-container:first-child {    
+        justify-content: center; 
+    }
+    
+    .project-container:nth-child(2) {       
+        justify-content: center;  
+    }
+}
+
+@media (max-width: 500px) {
+    
+}
+
+p{
+    margin: 1%;
+}

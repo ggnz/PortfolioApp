@@ -1,0 +1,125 @@
+.container-skills{
+    display: flex;    
+    justify-content: center;     
+    width: 100%;  
+    flex-wrap: wrap;    
+}
+
+.skills-container{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    padding-top: 20px;    
+    width: 26%; /* Ajusta el ancho de los contenedores */      
+}
+
+.section-title{
+    padding-top: 100px;    
+}
+
+
+
+
+.skill-card {
+    background: #fff;
+    width: 60%; /* Ocupa todo el ancho del contenedor */   
+    padding: 15px;    
+}
+
+.skill-img{
+    width: 77.42px;    
+    height: 77.42px;
+    border-radius: 5px;
+    object-fit:contain;
+}
+
+.skill-name{
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 16px;;
+    color: #575757;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e6e5e5;
+    height: 6px;
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #6d6d6f;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+
+@media (max-width: 1000px) {
+    .container-skills {
+        flex-direction: row; /* Cambia la dirección de los elementos */
+        align-content: center;         
+    }
+
+    .skill-container{
+        width: 80%;
+        padding: 20px 0; /* Reduce el padding vertical para mayor espacio */       
+    }
+    
+    .skill-container:first-child {    
+        justify-content: center; 
+    }
+    
+    .skill-container:nth-child(2) {       
+        justify-content: center;  
+    }
+    .skill-name{
+        padding: 5px 0px 0px;  
+        font-size: 14px;         
+    }
+}
+
+@media (max-width: 500px) {
+    .container-skills {
+        flex-direction: row; /* Cambia la dirección de los elementos */
+        align-content: center;   
+        width: 100%;    
+          
+    }
+    .skill-img{
+        width: 50px;    
+        height: 50px;    
+    }
+    .skill-name{
+        padding: 5px 0px 0px;  
+        font-size: 14px;         
+    }
+    
+    .progress-bar {
+        width: 100%;
+        background-color: #e6e5e5;
+        height: 5px;
+        border-radius: 10px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    
+    .progress {
+        height: 100%;
+        background-color: #6d6d6f;
+        color: white;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    
+}
+
+
+
+

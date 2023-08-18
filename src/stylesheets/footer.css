@@ -1,0 +1,19 @@
+.footer-content{
+    border-top: 1px solid #2e2e2e67;
+    padding: 20px;
+    color: #65656d;
+}
+
+.footer-content  .social-card{
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content .social-card img{
+    padding: 5px;    
+}
+
+.footer-content p{
+    margin: 0%;
+    padding: 5px;
+}

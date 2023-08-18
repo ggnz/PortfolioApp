@@ -1,0 +1,221 @@
+
+.main{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    gap: 70px;
+    min-height: calc(100vh - 50px);
+    width: 100%;
+    
+}
+
+.img-card{    
+    max-width: 500px;
+    height: 40vh;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+    border: 12px solid #ffffff; 
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.4);
+    opacity: 90%;
+    
+}
+
+.info-card{    
+    padding: 0px 30px; 
+    flex-wrap: wrap;      
+    max-width: 550px;  
+    display: block;
+    text-align: left;
+    color: #1f1f1f;
+    font-family: "Heebo",sans-serif;
+    font-size: 1.5vh;
+    flex-direction: row;
+    align-items: flex-start;  
+}
+
+.about{
+    color: #65656d;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 25px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    font-family: "Heebo",sans-serif;
+}
+
+
+li{
+    padding: 5px 10px;    
+    
+}
+
+.social-card {
+    display: flex;
+    gap: 10px;
+    align-items: center;    
+    justify-content: center;
+}
+
+a{
+    display: inline-block;  
+    text-decoration: none;  
+}
+
+a:hover{  
+    color: #14b8a6;
+}
+
+.social-card img {
+    padding-top: 20px;
+    width: 50px; 
+    height: auto; 
+    opacity: 90%;
+    transition: transform 0.3s;
+}
+
+.social-card img:hover  {
+    transform: scale(1.1);
+}
+
+.social-card a:nth-child(2) img {
+    width: 43px; 
+    height: auto;
+    opacity: 82%;
+    
+}
+h1{    
+    font-size: 34px;
+    margin: 0%;
+    text-align: center;
+    padding: 5px 30px; 
+    
+}
+
+h2{
+    font-size: 28px;
+    margin: 0%;
+    padding: 0px 30px; 
+    text-align: center;
+    color: #404040;
+}
+
+.icon{
+    font-size: 26px;
+    margin-right: 1rem;    
+}
+
+
+.personalContactInfo {
+    align-items: center;
+    display: flex;
+}
+
+.infoIcon {
+    align-items: center;
+    display: flex;
+    width: 40px;
+    padding-right: 12px;
+    opacity: 75%;
+}
+
+.mediaWrap {
+    border-left: 2px solid #6d6d6f;    
+    padding: 12px 0px 12px 0px;
+}
+
+.infoType {
+    color: var(--text-color);
+    font-size: 18px;    
+    text-align: start;
+    padding: 0px 12px 0px;
+
+}
+
+.infoValue {
+    color: #6d6d6f;
+    font-size: 18px;   
+    font-weight: 100;
+    text-align: start;
+    padding: 0px 12px 0px;
+}
+
+.info-card li {
+    display: list-item;
+    padding: 0%;
+    margin: 0%;
+}
+
+.info-card ul {
+    display: block;  
+    margin: 0%;
+    padding: 0%;
+
+    list-style-type: none;
+}
+
+@media (max-width: 1000px) {
+    .img-card,
+    .info-card {
+      max-width: 80%; /* Cambia el ancho máximo en pantallas más pequeñas */
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 3rem;        
+    }
+    .img-card{
+        margin-top: 7rem;    
+    }
+    .main{
+        flex-direction: column;
+        overflow-x: auto;
+        gap: 0px;
+    }
+
+    .about{     
+        margin-top: 20px;
+        padding: 0px;
+        margin-bottom: 20px;       
+        font-family: "Heebo",sans-serif;
+        font-size: 19px;
+    }
+    h1{    
+        font-size: 32px;            
+    }    
+    h2{
+        font-size: 26px;       
+    }
+    .info-card{
+        margin-top: 20px;
+    }
+    .infoType{
+        font-size: 17px;
+    }
+    .infoValue{
+        font-size: 17px;
+    }
+    .social-card img {
+        padding-top: 10px;        
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+      width: 500px; /* Ancho fijo */
+      margin: 0 auto; /* Centra la página horizontalmente */
+      overflow: visible; /* Evita el desplazamiento horizontal */
+    }
+
+    .img-card{       
+        height: 45vh;  
+        margin-top: 10rem;   
+    }
+
+    .about{     
+        margin-top: 20px;
+        padding-top: 5px;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+        font-family: "Heebo",sans-serif;
+    }
+}
