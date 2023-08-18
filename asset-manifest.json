@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/ggnz/ggnz.github.io.git/static/css/main.dcfb1552.css",
-    "main.js": "/ggnz/ggnz.github.io.git/static/js/main.6944de57.js",
-    "static/media/card-project2.jpg": "/ggnz/ggnz.github.io.git/static/media/card-project2.f547a8767fe889399cbf.jpg",
-    "static/media/card-project1.jpg": "/ggnz/ggnz.github.io.git/static/media/card-project1.f1299d25de4a99fd7f6d.jpg",
-    "static/media/icon-linux.png": "/ggnz/ggnz.github.io.git/static/media/icon-linux.6d208c95cc37fd3cdc44.png",
-    "static/media/icon-azure.png": "/ggnz/ggnz.github.io.git/static/media/icon-azure.5a694f18b0e4f276ce48.png",
-    "static/media/icon-net.png": "/ggnz/ggnz.github.io.git/static/media/icon-net.4889519c4b8cdad29341.png",
-    "static/media/card-me.png": "/ggnz/ggnz.github.io.git/static/media/card-me.80d0355ad6d4602fa182.png",
-    "static/media/icon-html.png": "/ggnz/ggnz.github.io.git/static/media/icon-html.860d906ddaa16acfecda.png",
-    "static/media/icon-c.png": "/ggnz/ggnz.github.io.git/static/media/icon-c.f089e215291596c8b583.png",
-    "static/media/icon-react.png": "/ggnz/ggnz.github.io.git/static/media/icon-react.b7b9b25fc7877789a220.png",
-    "static/media/icon-oracle.png": "/ggnz/ggnz.github.io.git/static/media/icon-oracle.e7bc0f6672d8f1869ac3.png",
-    "static/media/icon-server.png": "/ggnz/ggnz.github.io.git/static/media/icon-server.f646ee88b3621996e86d.png",
-    "static/media/icon-docker.png": "/ggnz/ggnz.github.io.git/static/media/icon-docker.9e011158a45676cfe881.png",
-    "static/media/icon-css.png": "/ggnz/ggnz.github.io.git/static/media/icon-css.58dfbebae4a02001b50e.png",
-    "static/media/icon-js.png": "/ggnz/ggnz.github.io.git/static/media/icon-js.3ade557547ee3603cbf9.png",
-    "static/media/Link-Mark.png": "/ggnz/ggnz.github.io.git/static/media/Link-Mark.275720b37ea098d2d93e.png",
-    "static/media/icon-mysql.png": "/ggnz/ggnz.github.io.git/static/media/icon-mysql.8ca52c25afffafaa83f1.png",
-    "index.html": "/ggnz/ggnz.github.io.git/index.html",
-    "main.dcfb1552.css.map": "/ggnz/ggnz.github.io.git/static/css/main.dcfb1552.css.map",
-    "main.6944de57.js.map": "/ggnz/ggnz.github.io.git/static/js/main.6944de57.js.map"
+    "main.css": "/myapp/static/css/main.dcfb1552.css",
+    "main.js": "/myapp/static/js/main.a9137d4b.js",
+    "static/media/card-project2.jpg": "/myapp/static/media/card-project2.f547a8767fe889399cbf.jpg",
+    "static/media/card-project1.jpg": "/myapp/static/media/card-project1.f1299d25de4a99fd7f6d.jpg",
+    "static/media/icon-linux.png": "/myapp/static/media/icon-linux.6d208c95cc37fd3cdc44.png",
+    "static/media/icon-azure.png": "/myapp/static/media/icon-azure.5a694f18b0e4f276ce48.png",
+    "static/media/icon-net.png": "/myapp/static/media/icon-net.4889519c4b8cdad29341.png",
+    "static/media/card-me.png": "/myapp/static/media/card-me.80d0355ad6d4602fa182.png",
+    "static/media/icon-html.png": "/myapp/static/media/icon-html.860d906ddaa16acfecda.png",
+    "static/media/icon-c.png": "/myapp/static/media/icon-c.f089e215291596c8b583.png",
+    "static/media/icon-react.png": "/myapp/static/media/icon-react.b7b9b25fc7877789a220.png",
+    "static/media/icon-oracle.png": "/myapp/static/media/icon-oracle.e7bc0f6672d8f1869ac3.png",
+    "static/media/icon-server.png": "/myapp/static/media/icon-server.f646ee88b3621996e86d.png",
+    "static/media/icon-docker.png": "/myapp/static/media/icon-docker.9e011158a45676cfe881.png",
+    "static/media/icon-css.png": "/myapp/static/media/icon-css.58dfbebae4a02001b50e.png",
+    "static/media/icon-js.png": "/myapp/static/media/icon-js.3ade557547ee3603cbf9.png",
+    "static/media/Link-Mark.png": "/myapp/static/media/Link-Mark.275720b37ea098d2d93e.png",
+    "static/media/icon-mysql.png": "/myapp/static/media/icon-mysql.8ca52c25afffafaa83f1.png",
+    "index.html": "/myapp/index.html",
+    "main.dcfb1552.css.map": "/myapp/static/css/main.dcfb1552.css.map",
+    "main.a9137d4b.js.map": "/myapp/static/js/main.a9137d4b.js.map"
   },
   "entrypoints": [
     "static/css/main.dcfb1552.css",
-    "static/js/main.6944de57.js"
+    "static/js/main.a9137d4b.js"
   ]
 }
