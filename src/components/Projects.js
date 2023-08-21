@@ -8,7 +8,7 @@ function Projects(props){
         <div className="project-card">
           <img 
               className="project-img"
-              src={require( `../images/card-${props.img}.jpg`)}  
+              src={require( `../images/projects/card-${props.img}.jpg`)}  
               alt="Profile" 
           />
 
