@@ -8,7 +8,7 @@ function Contact (values) {
           <div className="personalContactInfo">      
             <div className="infoIcon">
             <img               
-              src={require( `../images/icon-${values.info}.png`)} 
+              src={require( `../images/icons/icon-${values.info}.png`)} 
               alt="Profile" />   
                 
             </div>          

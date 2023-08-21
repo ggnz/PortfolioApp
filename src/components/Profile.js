@@ -40,10 +40,10 @@ function Profile(props){
 
           <div className="social-card">
           <a href="https://github.com/ggnz?tab=repositories">
-            <img src={require('../images/GitHub-Mark.png')} alt="GitHub" />
+            <img src={require('../images/icons/GitHub-Mark.png')} alt="GitHub" />
           </a>             
           <a href="https://www.linkedin.com/in/gerson-gonzález-a52695266/">
-            <img src={require('../images/Link-Mark.png')} alt="GitHub" />
+            <img src={require('../images/icons/Link-Mark.png')} alt="GitHub" />
           </a>         
           </div>    
       </div>       

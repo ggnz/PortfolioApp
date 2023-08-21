@@ -9,7 +9,7 @@ function Skills(props){
       <div className="skill-card">
         <img 
             className="skill-img"
-            src={require( `../images/icon-${props.img}.png`)}  
+            src={require( `../images/icons/icon-${props.img}.png`)}  
             alt="Profile" 
         />
 

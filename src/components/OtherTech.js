@@ -9,7 +9,7 @@ function Techs(props){
       <div className="tech-card">
         <img 
             className="tech-img"
-            src={require( `../images/icon-${props.img}.png`)}  
+            src={require( `../images/icons/icon-${props.img}.png`)}  
             alt="Profile" 
         />
 
