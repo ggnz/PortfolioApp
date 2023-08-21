@@ -1,9 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioApp/static/css/main.dcfb1552.css",
-    "main.js": "/PortfolioApp/static/js/main.c5e75569.js",
-    "static/media/card-project2.jpg": "/PortfolioApp/static/media/card-project2.f547a8767fe889399cbf.jpg",
-    "static/media/card-project1.jpg": "/PortfolioApp/static/media/card-project1.f1299d25de4a99fd7f6d.jpg",
+    "main.js": "/PortfolioApp/static/js/main.cf97a13f.js",
     "static/media/icon-linux.png": "/PortfolioApp/static/media/icon-linux.6d208c95cc37fd3cdc44.png",
     "static/media/icon-azure.png": "/PortfolioApp/static/media/icon-azure.5a694f18b0e4f276ce48.png",
     "static/media/icon-net.png": "/PortfolioApp/static/media/icon-net.4889519c4b8cdad29341.png",
@@ -20,10 +18,10 @@
     "static/media/icon-mysql.png": "/PortfolioApp/static/media/icon-mysql.8ca52c25afffafaa83f1.png",
     "index.html": "/PortfolioApp/index.html",
     "main.dcfb1552.css.map": "/PortfolioApp/static/css/main.dcfb1552.css.map",
-    "main.c5e75569.js.map": "/PortfolioApp/static/js/main.c5e75569.js.map"
+    "main.cf97a13f.js.map": "/PortfolioApp/static/js/main.cf97a13f.js.map"
   },
   "entrypoints": [
     "static/css/main.dcfb1552.css",
-    "static/js/main.c5e75569.js"
+    "static/js/main.cf97a13f.js"
   ]
 }
