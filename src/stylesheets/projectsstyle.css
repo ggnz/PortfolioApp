@@ -50,6 +50,7 @@
 .project-img{
     width: 100%;
     border-radius: 5px;
+    border: solid 0.5mm rgba(0, 0, 0, 0.096);
 }
 
 .project-name{

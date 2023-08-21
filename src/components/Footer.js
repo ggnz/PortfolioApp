@@ -6,10 +6,10 @@ function Footer(props){
     <div class="footer-content">
       
       <div className="social-card">
-        <a href="https://github.com/ggnz?tab=repositories">
+        <a href="https://github.com/ggnz?tab=repositories" rel="noreferrer" target="_blank">
           <img src={require('../images/icons/GitHub-Mark.png')} alt="GitHub" />
         </a>             
-        <a href="https://www.linkedin.com/in/gerson-gonzález-a52695266/">
+        <a href="https://www.linkedin.com/in/gerson-gonzález-a52695266/" rel="noreferrer" target="_blank">
           <img src={require('../images/icons/Link-Mark.png')} alt="GitHub" />
         </a>         
       </div>  

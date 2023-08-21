@@ -121,23 +121,20 @@ function App() {
           <Projects   
             name='Clinicas Trip'   
             desc='Alex app, is a tourist services management application with dynamic map searches, data table, offline use, and administrator page.'
-            img='project1'
+            img='project4'
+            link='https://github.com/ggnz/CRM'
             code='.NET / C# / SQL Server'
            />
            
           <Projects   
             name='Unity Game'   
             desc='Alex app, is a tourist services management application with dynamic map searches, data table, offline use, and administrator page.'
-            img='project2'
+            img='project4'
+            link='https://github.com/ggnz/UnityProject'
             code='Unity / C# '
             />
           
-          <Projects   
-            name='Portfolio'   
-            desc='Alex app, is a tourist services management application with dynamic map searches, data table, offline use, and administrator page.'
-            img='project1'
-            code='JavaScript / React '
-            />        
+               
         </div>
       </section>
 

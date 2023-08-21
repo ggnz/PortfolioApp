@@ -8,7 +8,7 @@ function Projects(props){
         <div className="project-card">
           <img 
               className="project-img"
-              src={require( `../images/projects/card-${props.img}.jpg`)}  
+              src={require( `../images/projects/card-${props.img}.png`)}  
               alt="Profile" 
           />
 
@@ -22,7 +22,7 @@ function Projects(props){
             {props.desc}
           </p>          
           <div class="project-button">
-             <a href="https://github.com/ggnz/CRM.git"><span>🔗 View Project</span></a>
+             <a href={props.link} rel="noreferrer" target="_blank"><span>🔗 View Project</span> </a>
           </div>
         </div>
         
