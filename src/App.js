@@ -19,7 +19,8 @@ function App() {
             name='Gerson'
             puesto='Software Engineer'            
             img='me'
-            about='I am a recent graduate of the Computer Systems Engineering career'
+            about='"As a recent graduate in Computer Systems Engineering.
+            I am deeply enthusiastic about problem-solving and learning from the process to acquire new skills that give me the opportunity to grow as a developer."'
             />            
       </div> 
       </section>      
@@ -120,19 +121,35 @@ function App() {
         <div className='container-projects'>              
           <Projects   
             name='Clinicas Trip'   
-            desc='Alex app, is a tourist services management application with dynamic map searches, data table, offline use, and administrator page.'
-            img='project4'
+            desc='Clinical appointment application created in ASP.NET Core with SQL Azure, using Razor Pages.'
+            img1='card-project4'
+            img2='card-project5'
+            img3='card-project6'
             link='https://github.com/ggnz/CRM'
-            code='.NET / C# / SQL Server'
+            code='.NET / C# / SQL'
            />
+
+          {/*
+          <Projects   
+          name='MVC'   
+          desc='MVC CRUD con SQL server'
+          img1='card-project4'
+          img2='card-project5'
+          img3='card-project6'
+          link='https://github.com/ggnz/UnityProject'
+          code='Unity / C# '
+          />*/}
            
           <Projects   
-            name='Unity Game'   
-            desc='Alex app, is a tourist services management application with dynamic map searches, data table, offline use, and administrator page.'
-            img='project4'
+            name='GungeonOps'   
+            desc='This project is a 2D TopDown shooting game made in Unity.'
+            img1='card-project1'
+            img2='card-project2'
+            img3='card-project3'
             link='https://github.com/ggnz/UnityProject'
             code='Unity / C# '
             />
+            
           
                
         </div>

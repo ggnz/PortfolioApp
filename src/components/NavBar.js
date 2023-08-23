@@ -2,7 +2,7 @@ import React from 'react';
 import '../stylesheets/NavBar.css'; // Asegúrate de tener el archivo CSS correspondiente
 import { Link } from 'react-scroll';
 
-const sections = ['home', 'skills', 'projects'];
+const sections = ['profile', 'skills', 'projects'];
 
 function NavBar() {
     return (

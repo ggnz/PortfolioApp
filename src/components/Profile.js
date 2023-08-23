@@ -13,11 +13,11 @@ function Profile(props){
       
       <div className="info-card">
           <h1>
-            {'Hi, Im ' + props.name + '🤚'}     
+            {'Hi, Im ' + props.name + '🍀'}     
           </h1>
 
           <h2>
-            {'Im a ' + props.puesto + '.'} 
+            {props.puesto + ''} 
           </h2>
           <div className="about">
               {props.about}
