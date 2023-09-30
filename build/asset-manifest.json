@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/PortfolioApp/static/css/main.26cfc6cf.css",
+    "main.js": "/PortfolioApp/static/js/main.8d0fa773.js",
+    "static/media/card-project4.png": "/PortfolioApp/static/media/card-project4.6d8fcf0ed71615026ed7.png",
+    "static/media/card-project3.png": "/PortfolioApp/static/media/card-project3.9b4a4b292cd0e7e1ac65.png",
+    "static/media/card-project6.png": "/PortfolioApp/static/media/card-project6.d7d8f292e64f7063f1ab.png",
+    "static/media/icon-linux.png": "/PortfolioApp/static/media/icon-linux.6d208c95cc37fd3cdc44.png",
+    "static/media/icon-azure.png": "/PortfolioApp/static/media/icon-azure.5a694f18b0e4f276ce48.png",
+    "static/media/card-project1.png": "/PortfolioApp/static/media/card-project1.4a0acf806625c7d426c7.png",
+    "static/media/card-project5.png": "/PortfolioApp/static/media/card-project5.50d122da7e0ed4aba3d8.png",
+    "static/media/card-project2.png": "/PortfolioApp/static/media/card-project2.9ce33c47f465c1396671.png",
+    "static/media/icon-net.png": "/PortfolioApp/static/media/icon-net.4889519c4b8cdad29341.png",
+    "static/media/card-me.png": "/PortfolioApp/static/media/card-me.80d0355ad6d4602fa182.png",
+    "static/media/icon-html.png": "/PortfolioApp/static/media/icon-html.860d906ddaa16acfecda.png",
+    "static/media/icon-c.png": "/PortfolioApp/static/media/icon-c.f089e215291596c8b583.png",
+    "static/media/icon-react.png": "/PortfolioApp/static/media/icon-react.b7b9b25fc7877789a220.png",
+    "static/media/icon-oracle.png": "/PortfolioApp/static/media/icon-oracle.e7bc0f6672d8f1869ac3.png",
+    "static/media/icon-server.png": "/PortfolioApp/static/media/icon-server.f646ee88b3621996e86d.png",
+    "static/media/icon-docker.png": "/PortfolioApp/static/media/icon-docker.9e011158a45676cfe881.png",
+    "static/media/icon-css.png": "/PortfolioApp/static/media/icon-css.58dfbebae4a02001b50e.png",
+    "static/media/icon-js.png": "/PortfolioApp/static/media/icon-js.3ade557547ee3603cbf9.png",
+    "static/media/Link-Mark.png": "/PortfolioApp/static/media/Link-Mark.275720b37ea098d2d93e.png",
+    "static/media/icon-mysql.png": "/PortfolioApp/static/media/icon-mysql.8ca52c25afffafaa83f1.png",
+    "index.html": "/PortfolioApp/index.html",
+    "main.26cfc6cf.css.map": "/PortfolioApp/static/css/main.26cfc6cf.css.map",
+    "main.8d0fa773.js.map": "/PortfolioApp/static/js/main.8d0fa773.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26cfc6cf.css",
+    "static/js/main.8d0fa773.js"
+  ]
+}
