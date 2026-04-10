@@ -1,0 +1,177 @@
+export const data = {
+  name: 'Gerson González',
+  role: 'Data Scientist & BI | Front-End Developer',
+  location: 'Heredia, Costa Rica',
+  email: 'ggzmiranda@gmail.com',
+  phone: '+506 7029 9050',
+  github: 'https://github.com/ggnz',
+  linkedin: 'https://www.linkedin.com/in/gerson-gonz%C3%A1lez-a52695266/',
+
+  about: `Systems Engineer with experience in data analysis, statistical modeling, and Business Intelligence solutions — complemented by strong front-end development skills.
+I work with Python and SQL/NoSQL in production environments for data processing, automation, and API development. I have applied training in R, Power BI, and ETL for building predictive models, executive dashboards, and data reports.
+My edge is covering the full cycle: from analysis and modeling to implementing interactive visualizations and user interfaces. English B2+ fluent.
+`,
+
+  experience: [
+    {
+      company: 'GPT Energytel S.A',
+      role: 'Software Developer',
+      period: 'Oct 2024 – Present',
+      location: 'Costa Rica',
+      highlights: [
+        'Developed Python scripts for processing, transformation, and analysis of operational data, automating information flows between internal systems',
+        'Used MongoDB and SQL for schema design, complex queries, and production database administration ensuring data integrity and performance',
+        'Built a QR-based registration system that collects large volumes of user data and visualizes it through interactive statistical charts',
+        'Constructed performance dashboards for monitoring projects, clients, and employees, integrating data from multiple sources into unified visual reports',
+        'Developed a CRM that consolidates data from Facebook, WhatsApp, and Instagram for customer communication analysis and metrics',
+        'Administered AWS infrastructure (RDS, S3, CloudFront) ensuring availability and scalability of data services',
+      ],
+    },
+    {
+      company: 'AnalyticaHub',
+      role: 'Front-End Developer (Freelance)',
+      period: 'Jan 2026 – Present',
+      location: 'Costa Rica',
+      highlights: [
+        'Designed and implemented data visualization interfaces and interactive reports for CRM platforms and business reporting systems',
+        'Built Vue components that consume APIs and display real-time business metrics, supporting data-driven decision making for clients',
+        'Delivered end-to-end projects from Figma design to functional implementation, aligning data visualization with business requirements',
+      ],
+    },
+    {
+      company: 'Escuela Los Ángeles',
+      role: 'Programming Instructor',
+      period: 'Mar 2022 – Jun 2024',
+      location: 'Costa Rica',
+      size: 'half',
+      highlights: [
+        'Designed and delivered weekly Python lessons focused on programming logic, data analysis, and computational problem-solving',
+        'Led hands-on coding projects that developed students\' analytical and technical skills',
+      ],
+    },
+    {
+      company: 'Popular Pensiones',
+      role: 'IT Assistant (Internship)',
+      period: 'Sep 2018 – Nov 2018',
+      location: 'Costa Rica',
+      size: 'half',
+      highlights: [
+        'Provided technical support via phone, email, and in-person channels',
+        'Assisted with network configuration and troubleshooting for routers, switches, and connectivity',
+      ],
+    },
+  ],
+
+  projects: [
+    {
+      name: 'NIMBUS',
+      description: 'LMS with three roles — Owner, Instructor, and Student. Instructors create courses with video lessons and graded quizzes. Students enroll, pay via Tilopay, complete courses, download files, and receive a certificate. Video streaming and file storage powered by AWS CloudFront and S3.',
+      tags: ['Vue', 'NestJS', 'AWS', 'S3', 'CloudFront', 'Tilopay'],
+      url: 'https://byhqqbrkne.us-west-2.awsapprunner.com',
+      type: 'Work Project',
+      images: ['lms1.png', 'lms2.png', 'lms3.png', 'lms4.png', 'lms5.png'],
+    },
+    {
+      name: 'Business Project Management System',
+      description: 'Internal BPMS for GPT Energytel. Integrates project, client, and employee data into performance dashboards and a Kanban board — giving management a unified view of progress, resource allocation, and cost control across the organization.',
+      tags: ['Vue', 'NestJS', 'Python', 'MongoDB', 'Dashboards', 'AWS'],
+      url: '',
+      type: 'Work Project',
+      images: ['bpms1.png', 'bpms2.png', 'bpms3.png'],
+    },
+    {
+      name: 'QR Registration System',
+      description: 'Census-style data collection platform built for a GPT Energytel client. Collects high volumes of user data via QR codes with reCAPTCHA and SMS validation, then presents it through interactive statistical charts and real-time dashboards for analysis and reporting.',
+      tags: ['Vue', 'Chart.js', 'Python', 'NestJS', 'MongoDB', 'Data Visualization'],
+      url: '',
+      type: 'Work Project',
+      images: ['qr1.png', 'qr2.png', 'qr3.png'],
+    },
+    {
+      name: 'CRM Platform',
+      description: 'Unified CRM that consolidates customer communication data from Facebook, Instagram, and WhatsApp via the Meta API. WebSockets power real-time updates. Includes contact management with full conversation history and status tracking for customer analytics.',
+      tags: ['Vue', 'NestJS', 'Meta API', 'WebSockets', 'MongoDB', 'Data Integration'],
+      url: '',
+      type: 'Work Project',
+      images: ['crm1.png', 'crm2.png', 'crm3.png', 'crm4.png'],
+    },
+    {
+      name: 'SuperBaterias',
+      description: 'Figma UI/UX design for a battery products e-commerce. Includes a product catalog, shopping cart, order tracking, brand showcase sections, and an appointment scheduling module.',
+      tags: ['Figma', 'UI/UX', 'E-commerce'],
+      url: '',
+      type: 'Freelance',
+      images: ['sb1.png', 'sb2.png', 'sb3.png', 'sb4.png'],
+    },
+    {
+      name: 'CCS Comdata Services',
+      description: 'Webflow CMS website for CCS Comdata showcasing their technology products and services. Built with a content-managed structure so the client can update offerings without touching code.',
+      tags: ['Webflow', 'CMS', 'UI/UX'],
+      url: 'https://www.ccscomdata.com',
+      type: 'Freelance',
+      images: ['CCS1.png', 'CCS2.png', 'CCS3.png'],
+    },
+    {
+      name: 'Mi Crédito Fácil',
+      description: 'Figma UI/UX design for a credit services company. Features a multi-step credit application form guiding users through service options and required documentation. Fully designed for desktop and mobile.',
+      tags: ['Figma', 'UI/UX', 'Mobile'],
+      url: '',
+      type: 'Freelance',
+      images: ['mcf1.png', 'mcf2.png', 'mcf3.png'],
+    },  
+    {
+      name: 'AnalyticaHub',
+      description: 'Landing page for AnalyticaHub, a data analytics and BI company. Features a modern hero section, services showcase, and a contact form for client inquiries — designed for conversion and built for desktop and mobile.',
+      tags: ['Vue', 'Tailwind', 'Formspree', 'UI/UX', 'Landing Page'],
+      url: 'https://www.analyticahub.com/',
+      type: 'Freelance',
+      images: ['analytica1.png', 'analytica2.png', 'analytica3.png', 'analytica4.png'],
+    },
+    {
+      name: 'PMT',
+      description: 'Figma UI/UX design covering company profile, services, and product offerings. Clean, modern layout designed for both desktop and mobile.',
+      tags: ['Figma', 'UI/UX', 'Mobile'],
+      url: '',
+      type: 'Freelance',
+      images: ['pmt1.png', 'pmt2.png', 'pmt3.png'],
+    },
+    {
+      name: 'EXTA Lead',
+      description: 'Informational landing page for a lead generation client with a centralized contact form built with Formspree, routing inquiries directly to the client\'s inbox — no backend required.',
+      tags: ['HTML', 'Tailwind', 'JavaScript', 'Formspree'],
+      url: 'https://extalead.info',
+      type: 'Freelance',
+      images: ['exta1.png', 'exta2.png'],
+    },
+    {
+      name: 'Costa Rica Medical Trip',
+      description: 'University capstone project — an appointment booking system for medical clinics across Costa Rica. Displays clinic profiles and specialist doctors with a full booking flow. Built with .NET Razor Pages, Blazor, and SQL Server, hosted on Azure.',
+      tags: ['.NET', 'Razor Pages', 'Blazor', 'SQL Server', 'Azure'],
+      url: '',
+      type: 'University Project',
+      images: ['medical1.jpeg', 'medical2.jpeg', 'medical3.jpeg'],
+    }
+  ],
+
+  skills: [
+    { category: 'Data Science & ML', items: ['Python', 'pandas', 'numpy', 'scikit-learn', 'matplotlib', 'seaborn', 'R', 'RStudio', 'Statistical Modeling', 'Machine Learning'] },
+    { category: 'Business Intelligence', items: ['Power BI', 'DAX', 'Oracle BI', 'Excel', 'Interactive Dashboards', 'Executive Reports'] },
+    { category: 'ETL & Data Processing', items: ['Pentaho Data Integration', 'Data Pipelines', 'Data Cleaning', 'Data Transformation'] },
+    { category: 'Databases SQL', items: ['Oracle Database', 'SQL Server', 'MySQL', 'Stored Procedures', 'Query Optimization'] },
+    { category: 'Databases NoSQL', items: ['MongoDB', 'Schema Design', 'Aggregation Queries'] },
+    { category: 'Frontend & UI', items: ['Vue 3', 'React', 'JavaScript', 'HTML', 'CSS', 'Tailwind', 'Bootstrap', 'Webflow'] },
+    { category: 'Cloud & Infrastructure', items: ['AWS RDS', 'AWS S3', 'CloudFront', 'Huawei Cloud', 'Docker', 'CI/CD'] },
+    { category: 'Tools & Methods', items: ['Git', 'GitHub', 'Jira', 'Scrum', 'Figma', 'REST APIs', 'NestJS', 'Claude AI'] },
+  ],
+
+  certifications: [
+    { name: 'Scrum Fundamentals Certified', issuer: 'SCRUMstudy' },
+    { name: 'Huawei Cloud Certified Developer Professional (HCCDP)', issuer: 'Huawei' },
+    { name: 'Huawei Cloud Certified Developer Associate (HCCDA)', issuer: 'Huawei' },
+    { name: 'Cisco IT Essentials', issuer: 'Cisco' },
+    { name: 'CCNAv7: Introduction to Networks', issuer: 'Cisco' },
+    { name: 'CCNAv7: Switching, Routing and Wireless', issuer: 'Cisco' },
+    { name: 'CCNAv7: Enterprise Networks, Security and Automation', issuer: 'Cisco' },
+    { name: 'English B2+ (Fluent)', issuer: 'Sykes Academy' },
+  ],
+}
