@@ -1,15 +1,15 @@
 export const data = {
   name: 'Gerson González',
-  role: 'Front-End & UI/UX Developer',
+  role: 'Data Scientist & BI | Front-End Developer',
   location: 'Heredia, Costa Rica',
   email: 'ggzmiranda@gmail.com',
   phone: '+506 7029 9050',
   github: 'https://github.com/ggnz',
   linkedin: 'https://www.linkedin.com/in/gerson-gonz%C3%A1lez-a52695266/',
 
-  about: `Systems Engineer with a strong focus on front-end development and UI/UX implementation.
-I translate design systems into production-ready applications using Vue and React, work hands-on in Figma from wireframe to handoff, and integrate AI tools into my development workflow to ship faster and smarter.
-Through my work at AnalyticaHub, I've also gained hands-on exposure to BI and data analytics — working alongside data teams and contributing to projects involving Power BI dashboards, ETL pipelines, and data visualization.
+  about: `Systems Engineer with experience in data analysis, statistical modeling, and Business Intelligence solutions — complemented by strong front-end development skills.
+I work with Python and SQL/NoSQL in production environments for data processing, automation, and API development. I have applied training in R, Power BI, and ETL for building predictive models, executive dashboards, and data reports.
+My edge is covering the full cycle: from analysis and modeling to implementing interactive visualizations and user interfaces. English B2+ fluent.
 `,
 
   experience: [
@@ -19,25 +19,23 @@ Through my work at AnalyticaHub, I've also gained hands-on exposure to BI and da
       period: 'Oct 2024 – Present',
       location: 'Costa Rica',
       highlights: [
-        'Built CRM platform integrating Facebook, WhatsApp, and Instagram into one system',
-        'Developed BPMS for project tracking, cost management, and performance monitoring',
-        'Designed and deployed NIMBUS LMS with AWS CloudFront & S3 for video/file storage',
-        'Implemented QR-based registration with interactive data visualization charts',
-        'Maintained AWS infrastructure: RDS, S3, CloudFront, Buckets',
-        'Collaborated with back-end teams using NestJS under agile methodology',
+        'Developed Python scripts for processing, transformation, and analysis of operational data, automating information flows between internal systems',
+        'Used MongoDB and SQL for schema design, complex queries, and production database administration ensuring data integrity and performance',
+        'Built a QR-based registration system that collects large volumes of user data and visualizes it through interactive statistical charts',
+        'Constructed performance dashboards for monitoring projects, clients, and employees, integrating data from multiple sources into unified visual reports',
+        'Developed a CRM that consolidates data from Facebook, WhatsApp, and Instagram for customer communication analysis and metrics',
+        'Administered AWS infrastructure (RDS, S3, CloudFront) ensuring availability and scalability of data services',
       ],
     },
     {
       company: 'AnalyticaHub',
-      role: 'Front-End & UI/UX Developer (Freelance)',
+      role: 'Front-End Developer (Freelance)',
       period: 'Jan 2026 – Present',
       location: 'Costa Rica',
       highlights: [
-        'Designed UI/UX flows in Figma for e-commerce, CRM, landing pages, and chat platforms',
-        'Implemented designs into Vue applications with pixel-accurate responsive results',
-        'Delivered ccscomdata.com — full Figma-to-Vue implementation for tech products client',
-        'Collaborated with data teams on BI projects, gaining exposure to Power BI dashboards and ETL pipelines',
-        'Leveraged Claude and Stitch to accelerate development workflows',
+        'Designed and implemented data visualization interfaces and interactive reports for CRM platforms and business reporting systems',
+        'Built Vue components that consume APIs and display real-time business metrics, supporting data-driven decision making for clients',
+        'Delivered end-to-end projects from Figma design to functional implementation, aligning data visualization with business requirements',
       ],
     },
     {
@@ -47,8 +45,8 @@ Through my work at AnalyticaHub, I've also gained hands-on exposure to BI and da
       location: 'Costa Rica',
       size: 'half',
       highlights: [
-        'Designed and delivered weekly lessons on Python and Arduino',
-        'Led hands-on coding projects strengthening students\' problem-solving skills',
+        'Designed and delivered weekly Python lessons focused on programming logic, data analysis, and computational problem-solving',
+        'Led hands-on coding projects that developed students\' analytical and technical skills',
       ],
     },
     {
@@ -75,24 +73,24 @@ Through my work at AnalyticaHub, I've also gained hands-on exposure to BI and da
     },
     {
       name: 'Business Project Management System',
-      description: 'Internal BPMS for GPT Energytel. Projects and clients are created with linked tasks and opportunities tracked through a Kanban board, giving the company a clear view of progress, resource allocation, and cost control.',
-      tags: ['Vue', 'NestJS', 'AWS', 'Figma'],
+      description: 'Internal BPMS for GPT Energytel. Integrates project, client, and employee data into performance dashboards and a Kanban board — giving management a unified view of progress, resource allocation, and cost control across the organization.',
+      tags: ['Vue', 'NestJS', 'Python', 'MongoDB', 'Dashboards', 'AWS'],
       url: '',
       type: 'Work Project',
       images: ['bpms1.png', 'bpms2.png', 'bpms3.png'],
     },
     {
       name: 'QR Registration System',
-      description: 'Census-style data collection platform built for a GPT Energytel client. Users register via QR codes with reCAPTCHA validation and SMS verification. Supports bulk voter roll uploads, high-volume record management, and interactive dashboards for real-time data visualization.',
-      tags: ['Vue', 'Chart.js', 'NestJS', 'reCAPTCHA', 'SMS'],
+      description: 'Census-style data collection platform built for a GPT Energytel client. Collects high volumes of user data via QR codes with reCAPTCHA and SMS validation, then presents it through interactive statistical charts and real-time dashboards for analysis and reporting.',
+      tags: ['Vue', 'Chart.js', 'Python', 'NestJS', 'MongoDB', 'Data Visualization'],
       url: '',
       type: 'Work Project',
       images: ['qr1.png', 'qr2.png', 'qr3.png'],
     },
     {
       name: 'CRM Platform',
-      description: 'Unified CRM with a real-time inbox aggregating messages from Facebook, Instagram, and WhatsApp via the Meta API. WebSockets power live updates and reactivity. Includes full contact management with conversation history and status tracking.',
-      tags: ['Vue', 'NestJS', 'Meta API', 'WebSockets'],
+      description: 'Unified CRM that consolidates customer communication data from Facebook, Instagram, and WhatsApp via the Meta API. WebSockets power real-time updates. Includes contact management with full conversation history and status tracking for customer analytics.',
+      tags: ['Vue', 'NestJS', 'Meta API', 'WebSockets', 'MongoDB', 'Data Integration'],
       url: '',
       type: 'Work Project',
       images: ['crm1.png', 'crm2.png', 'crm3.png', 'crm4.png'],
@@ -156,14 +154,14 @@ Through my work at AnalyticaHub, I've also gained hands-on exposure to BI and da
   ],
 
   skills: [
-    { category: 'Frontend & UI', items: ['HTML', 'CSS', 'JavaScript', 'Vue 3', 'React', 'Tailwind', 'Bootstrap', 'Webflow', 'Axios'] },
-    { category: 'UI/UX Design', items: ['Figma', 'Wireframing', 'Prototyping', 'Design Systems', 'Handoff'] },
-    { category: 'Business Intelligence', items: ['Power BI', 'DAX', 'Oracle BI', 'Excel', 'Pentaho ETL', 'Python', 'R'] },
-    { category: 'Backend & APIs', items: ['REST APIs', 'NestJS', 'ASP.NET Core', 'Flask'] },
-    { category: 'Cloud & DevOps', items: ['AWS S3', 'CloudFront', 'RDS', 'Docker', 'CI/CD'] },
-    { category: 'AI & Tools', items: ['Claude', 'Stitch', 'AI-assisted dev'] },
-    { category: 'Databases', items: ['MySQL', 'SQL Server', 'MongoDB', 'Oracle'] },
-    { category: 'Version Control', items: ['Git', 'GitHub', 'Bitbucket', 'Jira', 'Scrum'] },
+    { category: 'Data Science & ML', items: ['Python', 'pandas', 'numpy', 'scikit-learn', 'matplotlib', 'seaborn', 'R', 'RStudio', 'Statistical Modeling', 'Machine Learning'] },
+    { category: 'Business Intelligence', items: ['Power BI', 'DAX', 'Oracle BI', 'Excel', 'Interactive Dashboards', 'Executive Reports'] },
+    { category: 'ETL & Data Processing', items: ['Pentaho Data Integration', 'Data Pipelines', 'Data Cleaning', 'Data Transformation'] },
+    { category: 'Databases SQL', items: ['Oracle Database', 'SQL Server', 'MySQL', 'Stored Procedures', 'Query Optimization'] },
+    { category: 'Databases NoSQL', items: ['MongoDB', 'Schema Design', 'Aggregation Queries'] },
+    { category: 'Frontend & UI', items: ['Vue 3', 'React', 'JavaScript', 'HTML', 'CSS', 'Tailwind', 'Bootstrap', 'Webflow'] },
+    { category: 'Cloud & Infrastructure', items: ['AWS RDS', 'AWS S3', 'CloudFront', 'Huawei Cloud', 'Docker', 'CI/CD'] },
+    { category: 'Tools & Methods', items: ['Git', 'GitHub', 'Jira', 'Scrum', 'Figma', 'REST APIs', 'NestJS', 'Claude AI'] },
   ],
 
   certifications: [
